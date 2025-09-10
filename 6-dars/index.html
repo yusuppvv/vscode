@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form 
+        autocomplete="on"
+        action="https://echo.htmlacademy.ru"
+        method="POST"
+    >
+        <label for="user-name">Ismingizni yozing:</label><br>
+        <input type="text" name="user_name" id="user-name" required><br>
+        
+        <label for="user-surname">Familiyangizni yozing:</label><br>
+        <input type="text" name="user_surname" id="user-surname" required><br>
+        
+        <label for="user-email">Emailingizni kiriting:</label><br>
+        <input type="email" name="user_email" id="user-email" required><br>
+
+        <label for="user-password">Parolingizni kiriting:</label><br>
+        <input type="password" name="user_password" id="user-password" required><br>
+
+        <label>Yoshingizni kiriting:
+            <input type="number" name="user_age">
+        </label><br>
+
+        <input type="tel" name="user_tel" placeholder="+998 (__) ___-__-__" required><br>
+
+        <label>
+            Tug'ilgan kuningiz:
+            <input type="date" name="user_date">
+        </label><br>
+        
+        <label>
+            Vaqtingizni kiriting:
+            <input type="time" name="user_time">
+        </label><br>
+
+        <input type="search" name="user_search" placeholder="Qidiruv..."><br>
+
+        <label>
+            <input type="file" name="user_file">
+        </label><br>
+
+        <input type="color" name="user_color" placeholder="Rangni tanlang"><br>
+
+        <input type="url" name="user_url" placeholder="Veb-saytingiz manzili"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
