@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* }
+label {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+label:nth-child(2) {
+    margin-top: 10px;
+}
+label:nth-child(3) {
+    margin-top: 10px;
+}
+label:nth-child(4) {
+    margin-top: 10px;
+}
+label:nth-child(5) {
+    margin-top: 10px;
+}
+
+.input1-controller {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input1:checked + .input1-controller {
+    background-image: url(pingpong.png);
+    background-size: cover;
+}
+.input2-controller {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input2:checked + .input2-controller {
+    background-image: url(football.png);
+    background-size: cover;
+}
+.input3-controller {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input3:checked + .input3-controller {
+    background-image: url(badmington.png);
+    background-size: cover;
+}
+.input4-controller {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input4:checked + .input4-controller {
+    background-image: url(tennis.png);
+    background-size: cover;
+}
+.input5-controller {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input5:checked + .input5-controller {
+    background-image: url(chess.png);
+    background-size: cover;
+}
+.submit-btn {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 15px;
+} */
+/* -------------- */
+label {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+label:nth-child(2) {
+    margin-top: 10px;
+}
+label:nth-child(3) {
+    margin-top: 10px;
+}
+label:nth-child(4) {
+    margin-top: 10px;
+}
+label:nth-child(5) {
+    margin-top: 10px;
+}
+
+.input1-controller {
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: black;
+}
+.input1-controller::before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+.input1:checked + .input1-controller {
+    display: inline-block;
+}
+.input2-controller {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+.input2:checked + .input2-controller {
+    
+}
+.input3-controller {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+.input3:checked + .input3-controller {
+    
+}
+.input4-controller {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+.input4:checked + .input4-controller {
+    
+}
+.input5-controller {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+.input5:checked + .input5-controller {
+    
+}
+.submit-btn {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 15px;
+}

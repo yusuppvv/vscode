@@ -1,0 +1,27 @@
+body {
+  background-image: url(./img/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+p {
+  color: red;
+  text-align: center;
+}
+
+.lorem {
+  color: yellow;
+  text-align: center;
+}
+
+.lorem-em {
+  font-style: italic;
+}
+
+#paragraph {
+  font-weight: bold;
+}

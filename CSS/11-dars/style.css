@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.article {
+    border: 2px solid rgba(103, 195, 243, 1);
+    border-radius: 24px;
+    width: 1000px;
+    height: 325px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgba(103, 195, 243, 1);
+    color: white;
+    margin-left: 209px;
+}
+
+
+.article_title {
+    text-align: center;
+}
+.article_line {
+    width: 50px;
+    display: block
+    border-top: 2px solid white;
+    margin: 10px auto;
+}
+
+
+.article_left {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;              
+    text-align: center;
+}
+
+
+.article_quote {
+    display: inline-block;
+    vertical-align: middle;
+    width: 65%;             
+    margin-left: 20px;
+    width: 400px;
+    margin-left: 60px;
+}
+.article_image{
+    .article_image 
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px; 
+}
+ .article_text_info {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;    
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+.big__footer {
+    background-color: rgba(103, 195, 243, 1);
+    margin-top: 182px;
+    width: 100%;
+    min-height: 432px;
+    color: white;
+    padding: 118px 190px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.foooter__info {
+    max-width: 391px;
+}
+
+.footer__info-href {
+    display: inline-block;
+    margin-bottom: 17px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer__info-text {
+    margin-bottom: 31px;
+    line-height: 1.5;
+}
+
+.footer__info-copyright {
+    font-size: 14px;
+}
+
+.footer__nav-container {
+    display: flex;
+}
+
+.footer__nav {
+    list-style: none;
+}
+
+.footer__nav-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+}
+
+.footer__nav-item_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer__nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+    margin-bottom: 10px;
+}

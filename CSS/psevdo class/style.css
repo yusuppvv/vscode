@@ -1,0 +1,67 @@
+.hover__box {
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.hover__box:hover {
+    box-shadow:
+        #e4a53c 0px 54px 55px,
+        #e4a53c 0px -12px 30px,
+        #e4a53c 0px 4px 6px,
+        #e4a53c 0px 12px 13px,
+        #e4a53c 0px -3px 5px;
+}
+
+.active__box {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.active__box:active {
+    background-color: green;
+}
+
+#yurak:checked~.yurakcha {
+    color: red;
+}
+
+#yurak {
+    display: none;
+}
+
+.yurakcha {
+    font-size: 90px;
+}
+.cars__box {
+    border: 2px solid red;
+    width: 200px;
+}
+.car {
+    width: 100px;
+}
+
+.cars__box:hover .car {
+    margin-left: 90px;
+}
+
+.img1 {
+    transition: 1s ease;
+}
+.img2 {
+    transition: 1s ease-in;
+}
+.img3 {
+    transition: 1s ease-in-out;
+}
+.img4 {
+    transition: 1s ease-out;
+}
+.img5 {
+    transition: 1s linear;
+}

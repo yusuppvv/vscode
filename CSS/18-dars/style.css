@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vw;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    background-color: dodgerblue;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: 50px;
+    display: inline-block;
+    width: 100px;
+    height: 380px;
+    background-image: linear-gradient(red, green, blue);
+    animation: spin 2s linear infinite;
+}
+
+.box::after {
+    content: "CSS";
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 10px;
+    position: absolute;
+    font-size: 64px;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar__list {
+  list-style: none;
+  vertical-align: middle;
+  margin-top: 60px;
+  margin-left: 500px;
+}
+
+.navbar__item-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar__item {
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+
+.navbar__logo-link {
+  size: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.hero_info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hero_text {
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 22px;
+  color: rgba(125, 121, 135, 1);
+}
+
+.hero_btn {
+  margin-top: 47px;
+  display: inline-block;
+  border: none;
+  border-radius: 55px;
+  color: white;
+  background-color: #458FF6;
+  width: 124px;
+  height: 38px;
+}
+
+.hero_img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 206px;
+}
+
+.hospital {
+  text-align: center;
+}
+
+
+
+/* 2nd */
+
+.leading {
+  display: flex;
+  text-align: center;
+}
+
+.leading__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 137px;
+}
+
+.leading__picture {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+}
+
+.leading__picture-png {
+  width: 650px;
+  height: 457px;
+}
+
+.leading__title {
+  font-size: 36px;
+  color: black;
+  display: flex;
+  vertical-align: middle;
+  margin-left: 100px;
+  margin-bottom: 26px;
+}
+
+.leading__line {
+  display: flex;
+  vertical-align: middle;
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 31;
+  align-items: center;
+  margin-left: 103px;
+}
+
+.leading__text {
+  text-align: left;
+  padding: none;
+  font-size: 20;
+  vertical-align: middle;
+  margin-left: 103px;
+  margin-right: 250px;
+  color: rgba(169, 169, 169, 0.9);
+  margin-top: 31px;
+}
+
+.leading__btn {
+  display: inline-block;
+  margin-left: 103px;
+  margin-top: 37px;
+  border: 1;
+  border-radius: 30px;
+  color: blue;
+  width: 150px;
+  height: 40px;
+  border-color: blue;
+}
+
+/* N3 */
+.line {
+  display: flex;
+  vertical-align: middle;
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  align-items: center;
+  margin-left: 103px;
+  margin-top: 30px;
+  margin-bottom: 31px;
+}
+
+.app__page__info {
+  text-align: center;
+  display: flex;
+  align-items: left;
+}
+
+.app_page__title {
+  font-size: 36px;
+  color: black;
+  display: flex;
+  vertical-align: middle;
+  margin-left: 103px;
+}
+
+.app_page__text {
+  text-align: left;
+  font-size: 13;
+  width: 300px;
+  vertical-align: middle;
+  margin-left: 103px;
+  margin-right: 50px;
+  color: rgba(169, 169, 169, 0.9);
+}
+
+.app_page__download {
+  text-align: center;
+  display: block;
+  margin-left: 103px;
+  border: 1;
+  border-radius: 30px;
+  color: blue;
+  width: 150px;
+  height: 40px;
+  border-color: blue;
+  margin-top: 30px;
+}
+
+.app_page {
+  display: flex;
+  text-align: center;
+}
+
+.app_page__image {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  margin-left: 71px;
+}
+
+.app_page__image-png {
+  width: 650px;
+  height: 457px;
+  margin-right: 450px;
+  margin-left: 200px;
+}
+
+/*------------------------ ARTICLE------------------------------- */
+.article {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.article__title-txt {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.line {
+  display: inline-block;
+  vertical-align: middle;
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  align-items: center;
+  margin-top: 26px;
+  margin-bottom: 79px;
+}
+
+.article__cards-elements {
+  display: inline-block;
+}
+
+.article__cards-item {
+  list-style: none;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(229, 233, 246, 0.7);
+  background-color: white;
+  margin-right: 34px;
+  margin-left: 54px;
+  display: inline-block;
+  width: 350px;
+  height: 512px;
+  text-align: left;
+}
+
+.article__cards-img {
+  display: inline-block;
+  width: 40;
+  height: 240px;
+  border: none;
+  border-radius: 5px;
+}
+
+.article__cards-title {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.article__cards-text {
+  font-size: 16px;
+  color: rgba(100, 100, 100, 0.9);
+  margin-left: 20px;
+}
+
+.article__cards-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #458FF6;
+  margin-left: 20px;
+  margin-top: 150px;
+}
+
+.article__btn {
+  display: block;
+  margin-left: 765px;
+  margin-top: 69px;
+  margin-bottom: 100px;
+  border-color: blue;
+  border-radius: 55px;
+  color: blue;
+  background-color: white;
+  width: 124px;
+  height: 38px;
+}
+
+/* ----------------------------MED----------------------------- */
+.med {
+  text-align: center;
+}
+
+.med__text {
+  font-size: 20px;
+  color: rgba(100, 100, 100, 0.9);
+  margin: 0 auto;
+}
+
+.med__list {
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.med__item {
+  border: none;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 350px;
+  padding: 10px 10px 40px 35px;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  margin-right: 34px;
+  margin-bottom: 37px;
+}
+
+.med__item-text {
+  display: inline-block;
+  text-align: left;
+}
+
+.med__item-img {
+  margin-top: 54px;
+  margin-left: 37px;
+}
+
+.med__btn {
+  display: block;
+  margin-left: 670px;
+  color: blue;
+  background-color: white;
+  border-radius: 55px;
+  border-color: blue;
+  width: 124px;
+  height: 38px;
+}

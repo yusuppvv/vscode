@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+
+    justify-content: center;
+}
+
+.box {
+    width: 500px;
+    height: 1029px;
+    background-image: url(./iphone_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    margin-top: 68px;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.option {
+    display: flex;
+    margin-left: 35px;
+    text-align: left;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+.option__r {
+    display: flex;
+    align-items: center;
+}
+
+.option__name {
+    font-size: 20px;
+
+}
+
+.option__description {
+    color: gray;
+}
+
+.check {
+    display: inline-flex;
+    border-radius: 30px;
+    width: 85px;
+    height: 35px;
+    padding: 1px;
+    background-color: white;
+    border: 1px solid gray;
+    transition: all 0.3s ease;
+}
+
+.check-circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translateX(0px);
+    transition: all 0.3s ease;
+    border: 1px solid gray;
+}
+
+.input:checked+.check>.check-circle {
+    transform: translateX(50px);
+}
+
+.input:checked+.check {
+    background-color: dodgerblue;
+}
+
+.option2 {
+    display: flex;
+    margin-left: 35px;
+    text-align: left;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 75px;
+}
+
+.option2__r {
+    display: flex;
+    align-items: center;
+}
+
+.option2__name {
+    font-size: 20px;
+
+}
+
+.option2__description {
+    color: gray;
+}
+
+.check2 {
+    display: inline-flex;
+    border-radius: 30px;
+    width: 85px;
+    height: 35px;
+    padding: 1px;
+    background-color: white;
+    border: 1px solid gray;
+    transition: all 0.3s ease;
+}
+
+.check2-circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translateX(0px);
+    transition: all 0.3s ease;
+    border: 1px solid gray;
+}
+
+.input2:checked+.check2>.check2-circle {
+    transform: translateX(50px);
+}
+
+.input2:checked+.check2 {
+    background-color: dodgerblue;
+}
+
+.option3 {
+    display: flex;
+    margin-left: 35px;
+    text-align: left;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 75px;
+}
+
+.option3__r {
+    display: flex;
+    align-items: center;
+}
+
+.option3__name {
+    font-size: 20px;
+
+}
+
+.option3__description {
+    color: gray;
+}
+
+.check3 {
+    display: inline-flex;
+    border-radius: 30px;
+    width: 85px;
+    height: 35px;
+    padding: 1px;
+    background-color: white;
+    border: 1px solid gray;
+    transition: all 0.3s ease;
+}
+
+.check3-circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translateX(0px);
+    transition: all 0.3s ease;
+    border: 1px solid gray;
+}
+
+.input3:checked+.check3>.check3-circle {
+    transform: translateX(50px);
+}
+
+.input3:checked+.check3 {
+    background-color: dodgerblue;
+}
+
+.option4 {
+    display: flex;
+    margin-left: 35px;
+    text-align: left;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 75px;
+}
+
+.option4__r {
+    display: flex;
+    align-items: center;
+}
+
+.option4__name {
+    font-size: 20px;
+
+}
+
+.option4__description {
+    color: gray;
+}
+
+.check4 {
+    display: inline-flex;
+    border-radius: 30px;
+    width: 85px;
+    height: 35px;
+    padding: 1px;
+    background-color: white;
+    border: 1px solid gray;
+    transition: all 0.3s ease;
+}
+
+.check4-circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translateX(0px);
+    transition: all 0.3s ease;
+    border: 1px solid gray;
+}
+
+.input4:checked+.check4>.check4-circle {
+    transform: translateX(50px);
+}
+
+.input4:checked+.check4 {
+    background-color: dodgerblue;
+}
+
+/* ------------------- */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 3px;
+}
