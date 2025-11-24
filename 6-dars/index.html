@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <form 
-        autocomplete="on"
-        action="https://echo.htmlacademy.ru"
-        method="POST"
-    >
+    <form autocomplete="on" action="https://echo.htmlacademy.ru" method="POST">
         <label for="user-name">Ismingizni yozing:</label><br>
         <input type="text" name="user_name" id="user-name" required><br>
-        
+
         <label for="user-surname">Familiyangizni yozing:</label><br>
         <input type="text" name="user_surname" id="user-surname" required><br>
-        
+
         <label for="user-email">Emailingizni kiriting:</label><br>
         <input type="email" name="user_email" id="user-email" required><br>
 
@@ -33,7 +31,7 @@
             Tug'ilgan kuningiz:
             <input type="date" name="user_date">
         </label><br>
-        
+
         <label>
             Vaqtingizni kiriting:
             <input type="time" name="user_time">
@@ -49,6 +47,11 @@
 
         <input type="url" name="user_url" placeholder="Veb-saytingiz manzili"><br>
         <button type="submit">Submit</button>
+
+        <select name="lang" >
+            <option value="Uz">Uz</option>
+        </select>
     </form>
 </body>
+
 </html>
